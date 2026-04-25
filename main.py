@@ -65,7 +65,7 @@ Here is the video data:
 """
 
 completion = client.chat.completions.create(
-    model="deepseek-ai/DeepSeek-R1:novita",
+    model="deepseek-ai/DeepSeek-R1",
     messages=[
         {
             "role": "user",
